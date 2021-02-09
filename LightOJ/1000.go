@@ -3,6 +3,17 @@ package main
 import "fmt"
 
 /**
+ * Returns the total number of problems.
+ *
+ * @param a denotes the number of problems in the first computer
+ * @param b denotes the number of problems in the second computer
+**/
+func process(a, b int) int {
+	// Implement this method
+	return a + b
+}
+
+/**
  * Takes care of the problem input and output.
 **/
 func main() {
@@ -15,15 +26,4 @@ func main() {
 
 		fmt.Printf("Case %d: %d\n", t, process(a, b))
 	}
-}
-
-/**
- * Returns the total number of problems.
- *
- * @param a denotes the number of problems in the first computer
- * @param b denotes the number of problems in the second computer
-**/
-func process(a, b int) int {
-	// Implement this method
-	return a + b
 }
